@@ -41,6 +41,7 @@ public class MainActivityUnitTest {
     capabilities.setCapability("isRealMobile", true);
     capabilities.setCapability("video", true);
     capabilities.setCapability("console", true);
+    capabilities.setCapability("appiumVersion", "1.22.3");
 
     String username = System.getenv("LT_USERNAME");
     String accessKey = System.getenv("LT_ACCESS_KEY");
